@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header {
+            background-color: lightgray;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            box-shadow: 1px 1px 6px #0000006c;
+        }
+
+        nav { 
+            background-color: gray;
+            padding: 3px;
+            margin-right: 3px;
+            border-radius: 6px;
+            box-shadow: 1px 1px 6px #0000004f;
+        }
+
+        h2 { 
+            text-shadow: 1px 1px 3px rgba(128, 128, 128, 0.788);
+        }
+
+        a { 
+            text-decoration: none;
+            font-weight: bold;
+            color: red;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            background-color: lightgray;
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 7px;
+            box-shadow: 1px 1px 6px #0000006e;
+        }
+
+        article > aside {
+            background-color: gray;
+            padding: 5px;
+            border-radius: 6px;
+            box-shadow: 1px 1px 4px #0000006c;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h2>menu</h2>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Site de exemplo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ad delectus provident necessitatibus nisi aliquid nobis corrupti dolorem quis voluptatum, fugiat dolore nam error animi, vel dicta ducimus enim doloribus?</p>
+        </section>
+
+        <section>
+            <article>
+                <h2>Título</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempore sequi cumque autem maxime harum voluptatem aliquid deserunt quis? Provident officia debitis porro corporis eos sunt mollitia dolor! Rem, ratione!</p>
+
+                <aside>por dev joão</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        agradecimentos
+    </footer>
+
+
+    
+</body>
+</html>
